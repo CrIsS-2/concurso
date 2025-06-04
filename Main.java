@@ -9,11 +9,12 @@ public class Main {
         concurso.agregarCategoria(empresarial);
 
         Laboratorio labA = new Laboratorio("Laboratorio A", 10);
-        Laboratorio labB = new Laboratorio("Laboratorio B", );
+        Laboratorio labB = new Laboratorio("Laboratorio B",10 );
 
         labA.agregarSoftware(new Software("Visual Studio", "2022"));
         labA.agregarSoftware(new Software("PostgreSQL", "14"));
         labB.agregarSoftware(new Software("SQL Server", "2019"));
+
 
         for (int i = 1; i <= 5; i++) {
             labB.agregarComputadora(new Computadora("B" + i));

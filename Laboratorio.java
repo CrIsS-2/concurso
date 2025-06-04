@@ -31,4 +31,7 @@ public class Laboratorio {
     public List<Software> getSoftwareInstalado() {
         return softwareInstalado;
     }
+    public boolean tieneCupoDisponible() {
+    return computadoras.size() < capacidad;
+}
 }
